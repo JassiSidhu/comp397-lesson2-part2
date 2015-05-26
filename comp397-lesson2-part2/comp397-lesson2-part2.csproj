@@ -68,11 +68,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\button.jpg" />
     <Content Include="css\main.css" />
     <Content Include="index.html" />
     <Content Include="scripts\lib\easeljs-0.8.0.min.js" />
     <Content Include="scripts\lib\preloadjs-0.6.0.min.js" />
     <Content Include="scripts\lib\soundjs-0.6.0.min.js" />
+    <Content Include="scripts\lib\Stats.js" />
     <Content Include="scripts\lib\tweenjs-0.6.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -82,7 +84,6 @@
   <ItemGroup>
     <Folder Include="assets\audio\" />
     <Folder Include="assets\fonts\" />
-    <Folder Include="assets\images\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="scripts\game.ts" />
@@ -90,6 +91,7 @@
     <TypeScriptCompile Include="scripts\typings\easeljs\easeljs.d.ts" />
     <TypeScriptCompile Include="scripts\typings\preloadjs\preloadjs.d.ts" />
     <TypeScriptCompile Include="scripts\typings\soundjs\soundjs.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\stats\stats.d.ts" />
     <TypeScriptCompile Include="scripts\typings\tweenjs\tweenjs.d.ts" />
     <TypeScriptCompile Include="scripts\typings\webaudioapi\waa-20120802.d.ts" />
     <TypeScriptCompile Include="scripts\typings\webaudioapi\waa-nightly.d.ts" />
